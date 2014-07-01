@@ -63,7 +63,7 @@ uint8_t Talkie::getBits(uint8_t bits) {
 	}
 	return value;
 }
-void Talkie::say(uint8_t* addr) {
+void Talkie::say(const uint8_t* addr) {
 	uint8_t energy;
 
 	if (!setup) {
@@ -94,7 +94,7 @@ void Talkie::say(uint8_t* addr) {
 		setup = 1;
 	}
 
-	setPtr(addr);
+	setPtr((uint8_t*)addr);
 	do {
 		uint8_t repeat;
 
