@@ -3,6 +3,8 @@ Talkie
 
 Speech library for Arduino
 
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/156802672&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
 Quick start
 -----------
 [Download the .zip file from the link at the top of the page or click here.](https://github.com/going-digital/Talkie/zipball/master) Install the "talkie" directory in your Arduino / libraries directory. Restart the Arduino software, and pick one of the examples from the Talkie section. Program it onto a 168 or 328 based Arduino (Uno, Duemilanove or Diecimila - not a Mega or Leonardo). Connect headphones or an audio amplifier to digital pin 3.
